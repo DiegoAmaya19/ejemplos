@@ -1,0 +1,9 @@
+{
+  "routes": [
+    "/about",
+    "/identificador",
+    "/panel-pintar",
+    "/principal",
+    "/proyectos"
+  ]
+}
