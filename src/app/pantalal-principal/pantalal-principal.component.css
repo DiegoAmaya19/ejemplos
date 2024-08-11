@@ -1,0 +1,12 @@
+.imagen{
+    display: block;
+    height: auto;
+    width: 300px;
+    margin: 10px auto 10px auto;
+    border-radius: 10px;
+}
+
+.link-ir{
+    cursor: pointer;
+    display: block;   
+}

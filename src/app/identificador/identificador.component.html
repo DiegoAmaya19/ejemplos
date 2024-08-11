@@ -1,0 +1,9 @@
+<p class="titulo">Hola Usuario por favor digite su nombre</p>
+
+<input type="text" name="nombre" id="nombre" placeholder="Digite Nombre" [(ngModel)]="nombreInsertadoUser">
+
+<button class="btn_enviar" (click)="caracteresMensaje(nombreInsertadoUser)">Enviar</button>
+
+<p for="nombre" id="nombreMostrado" [class]="nombreClase">{{nombreUser}}</p>
+
+<p for="letras" id="nombreMostrado" [class]="nombreClase">{{numeroCaracteres}}</p>

@@ -1,0 +1,21 @@
+<h2 class="titulo">Area para escribir</h2>
+
+<!-- Panel para pintar -->
+<div (mousemove)="mouseMove($event)" id="canvas" class="canva"></div>
+
+<button (click)="limpiar()" id="btnLimpiar">Limpiar</button>
+
+<!-- Div para botones cambio de colores del lapiz -->
+<div class="paletaColores">
+
+  <button class="boton-patela" id="rojo" (click)="cambiarColor('#c90101')">Rojo</button>
+  <button class="boton-patela" id="azul" (click)="cambiarColor('#013583')">Azul</button>
+  <button class="boton-patela" id="morado" (click)="cambiarColor('#5610b1')">Morado</button>
+  <button class="boton-patela" id="amarillo" (click)="cambiarColor('#ceba08')">Amarillo</button>
+  <button class="boton-patela" id="verde" (click)="cambiarColor('#0b4b16')">Verde</button>
+  <button class="boton-patela" id="naranja" (click)="cambiarColor('#ca4a00')">Naranja</button>
+  <button class="boton-patela" id="rosa" (click)="cambiarColor('#cc0ccc')">Rosa</button>
+
+</div>
+
+<input type="range" name="tPuntero" id="tPuntero" [(ngModel)]="rango">
